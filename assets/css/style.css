@@ -69,12 +69,10 @@ p {
     margin-left: 25px;
 }
 
-.major {
-    width: 75%;
+.content {
     display: inline-block;
     margin-left: 20px;
-    font-size: larger;
-}
+    }
 
 .benefits {
     margin-right: 20px;
@@ -88,6 +86,11 @@ p {
     overflow: auto;
     position: relative;
     }
+
+.content-wrapper {
+    float: left;
+    width: 75%;
+}
 
 .benefit-list {
     margin-bottom: 32px;
